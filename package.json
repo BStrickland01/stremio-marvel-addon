@@ -1,0 +1,13 @@
+{
+  "name": "stremio-marvel-addon",
+  "version": "1.0.0",
+  "description": "Standalone Marvel movies and series Stremio catalog add-on powered by TMDB.",
+  "main": "addon.js",
+  "scripts": {
+    "start": "node addon.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "stremio-addon-sdk": "^1.6.10"
+  }
+}
